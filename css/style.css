@@ -1,0 +1,198 @@
+/**************************************************** tag selector ***************************************************/
+body{
+  font-family: 'Merriweather', serif;
+  text-align:center;
+  color:#40514E;
+}
+
+h1{
+  line-height:2;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  font-size: 2.5rem;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  color:#66BFBF;
+}
+
+h3{
+  font-family: 'Merriweather', serif;
+  display: block;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  color:#11999E;
+}
+
+p{
+  margin-bottom:20px;
+}
+
+a{
+  color:#11999E;
+}
+
+hr{
+  border-style: dotted;
+  width:7%;
+  border-top-width: 10px;
+  border-right-style: none;
+  border-left-style:none;
+  border-bottom-style:none;
+  color:#EAF6F6;
+}
+
+
+
+/*************************************************** class selector *************************************************/
+
+/* Top-page style */
+.top-page{
+  position:relative;
+  text-align:center;
+  padding-top:120px;
+  background-color: #E4F9F5;
+}
+
+.top-cloud{
+  position:absolute;
+  left:68%;
+  top:10%;
+}
+
+.bottom-cloud{
+  position:absolute;
+  left:20%;
+  top:45%;
+}
+
+/* class selector and tag selector Top-page */
+.top-page{
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625em;
+  font-weight:bolder;
+  color:#66BFBF;
+}
+
+.top-page p{
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom:4.7%;
+}
+
+/* class selector middle page */
+
+.middle-container{
+  margin-top:100px;
+}
+
+.middle-container .skill-row {
+  width:50%;
+  margin:80px auto;
+  text-align:left;
+  line-height:2;
+}
+
+.middle-container .skill-row img{
+  width:25%;
+}
+
+.middle-container .skill-row .skill-row-1{
+  float:left;
+  margin-right:30px;
+}
+
+.middle-container .skills .h2-skills {
+  color:#66BFBF;
+}
+
+.middle-container .skill-row .skill-row-1-description{
+  /* clear:left; */
+  font-weight:bold;
+}
+
+.middle-container .skill-row  .skill-row-2{
+  float:right;
+  margin-left:30px;
+}
+
+.middle-container .skill-row .skill-row-2-description{
+  /* clear:right; */
+  font-weight:bold;
+}
+
+.middle-container .profile .paragraph-1{
+  /* color:#40514E; */
+  font-weight:bold;
+  width:45%;
+  margin:0 auto 0 auto;
+}
+
+.middle-container .profile .paragraph-1 a{
+  color:#40514E;
+  font-weight:bold;
+  text-decoration:none;
+  font-style:italic;
+}
+
+/* button class */
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+/* class and tag selector middle page */
+
+/* class selector bottom page */
+.bottom-container{
+  text-align:center;
+  margin-top:20px;
+  background-color: #11cdd4;
+  padding:20px;
+  padding-top:30px;
+}
+
+.bottom-container .footer-link{
+  padding:20px;
+  text-decoration:none;
+  color:#11999E;
+}
+
+
+
+/* class and tag selector */
+.bottom-container p{
+  margin-bottom:0;
+  margin-top:35px;
+  color:#EAF6F6;
+}
